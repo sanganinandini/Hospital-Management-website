@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    width: 100%;
+    display: flex;
+    height: 70px;
+    justify-content: center; 
+    background-color:rgba(26, 91, 170, 0.312);
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing:border-box;
+    gap: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+}
+nav button{
+    height: 35px;
+    width: 130px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    margin-right: 100px;   
+}
+nav img{
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.398);
+    margin-left: 100px;
+}
+.img1{
+    width: 100%;
+    /* height: 50px; */
+    /* position: relative; */
+}
+/* .bcg{
+    /* position: relative; 
+}                  */
+.img1 img{
+    width:100%;
+    height: 500px;
+    position: relative;
+}
+.cantact{
+    position: absolute;
+    top: 30%;
+    height: 100px;
+    font-size: 30px;
+    color:navy;
+    left: 90px;
+   
+    /* background-color: blueviolet; */
+}
+.big{
+    display: flex;
+    gap: 30px;
+     position: absolute;
+    top: 50%;
+    left: 45%;
+
+}
+.call{
+    width: 400px;
+    height: 100px;
+    /* border: black 2px solid; */
+    line-height: 20px;
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.343);
+    color: navy;
+    padding-left: 2px;
+    background: linear-gradient(yellow,red);
+}
+/* .headphone{
+     width: 300px;
+    height: 100px;
+    border: black 2px solid;
+} */
+ .cc{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+ }
+ .cc1{
+    height: 200px;
+    width: 300px;
+    /* border: black 2px solid; */
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.345);
+    background:linear-gradient(pink,mediumvioletred);
+ }
+ .cc1 i{
+    /* height: 100px; */
+    width: 100px;
+    
+    font-size: 50px;
+    padding-left: 60px;
+    padding-top: 10px;
+ }
+ .cc1 h1{
+   padding-left: 50px;
+   color: blue;
+ }
+ .cc1:hover{
+   transform: scale(1.5);
+ }
+ .cc1 p{
+    padding-left: 10px;
+    color: navy;
+    font-size: 18px;
+    line-height: 20px;
+ }
+ .h1{
+    font-size: 20px;
+ }
+ .details{
+    height: 63vh;
+    width: 92vw;
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+    /* border-radius: 20px; */
+    /* border: black 2px solid; */
+
+ }
+ .details1{
+    border-radius: 20px;
+    /* height: 100vh; */
+    width: 50vw;
+    border: black 2px solid;
+ }
+ iframe{
+   height: 500px;
+   width: 900px;
+   border-radius: 20px;
+ }
+ fieldset{
+    padding: 30px;
+    width: 400px;
+    padding-top: 20px;
+    background-color: gainsboro;
+    border-radius: 20px;
+    margin-right: 50px;
+ }
+ input{
+    height: 50px;
+    width: 300px;
+    background-color: blanchedalmond;
+    font-size: 20px;
+ }
+ input:hover{
+    transform: scale(1.1);
+ }
+ input:focus{
+    background-color: gray;
+    color: white;
+ }
+ .l{
+    width: 10px;
+    height: 15px;
+ }
+ textarea{
+    height: 40px;
+    width: 300px;
+    background-color: blanchedalmond;
+    border:black 2px solid ;
+    padding-left: 20px;
+    font-size: 20px;
+ }
+ 
+ textarea:hover{
+        transform: scale(1.1);
+ }
+ textarea:focus{
+    background-color:mediumvioletred;
+    color: white;
+ }
+ #su{
+    padding: 10px;
+    margin-left: 90px;
+    border-radius: 20px;
+    width: 120px;
+    background-color:maroon;
+    color: white;
+ }
+ input::placeholder{
+   padding-left: 30px;
+ }
+ label{
+   font-size: 20px;
+ }
+.foot{
+    width: 100vw;
+    display: flex;
+    gap: 80px;
+    margin-left: 0px;
+    margin-top: 60px;
+    background-color: navy;
+    
+}
+.foot1{
+    height: 300px;
+    width: 200px;
+    line-height: 40px;
+    color: white;
+    padding-left: 100px;
+    
+}
+.foot1 h4{
+   font-weight: normal;
+}
+.foot1 button{
+    padding: 15px;
+    border-radius: 20px;
+    background-color:blue;
+    color: white;
+}
